@@ -1,0 +1,25 @@
+.articles {
+  margin-top: 30px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 11px;
+    color: $BlackColor;
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 50px 18px 50px;
+    color: $BlackColor;
+  }
+
+  &__icon-bg {
+    width: 64px;
+    height: 64px;
+    background-color: $GreenColor;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
