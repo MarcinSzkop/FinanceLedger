@@ -15,6 +15,9 @@
       color: $WhiteColor;
     }
   }
+  &__icon-svg {
+    fill: $GreenColor;
+  }
 
   &__menu-list {
     display: flex;
@@ -38,6 +41,7 @@
   &__description {
     font-size: 22px;
     font-weight: 400;
+    line-height: 36.8px;
     color: $LightGreyColor;
     padding: 0px 37px 27px 37px;
   }
@@ -49,5 +53,10 @@
     border-radius: 5px;
     font-size: 16px;
     color: $WhiteColor;
+  }
+
+  &__button-svg {
+    fill: $WhiteColor;
+    margin-right: 5.87px;
   }
 }

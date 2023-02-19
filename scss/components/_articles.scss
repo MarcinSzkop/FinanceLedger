@@ -22,4 +22,9 @@
     border-radius: 50%;
     display: inline-block;
   }
+
+  &__icon-svg {
+    margin-top: 20%;
+    fill: $WhiteColor;
+  }
 }
