@@ -28,6 +28,22 @@
     color: $WhiteColor;
   }
 
+  &__title {
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 66px;
+    color: $LightGreyColor;
+    padding: 44px 39px 16px 39px;
+  }
+
+  &__description {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37px;
+    color: $LightGreyColor;
+    padding: 0px 37px 27px 37px;
+  }
+
   &__button {
     width: 156px;
     height: 45px;
@@ -36,19 +52,4 @@
     font-size: 16px;
     color: $WhiteColor;
   }
-}
-
-h1 {
-  font-size: 52px;
-  font-weight: 300;
-  line-height: 93%;
-  color: $LightGreyColor;
-  padding: 44px 39px 16px 39px;
-}
-
-h2 {
-  font-size: 22px;
-  font-weight: 400;
-  color: $LightGreyColor;
-  padding: 0px 37px 27px 37px;
 }
